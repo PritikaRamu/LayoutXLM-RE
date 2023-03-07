@@ -1,0 +1,78 @@
+total steps: 470, total examples:, 1880, warmup steps: 70.5
+Epoch: 0
+Loss after 0 steps: 0.6787806749343872
+Loss after 10 steps: 0.5801736495711587
+Loss after 20 steps: 0.4326495542412713
+Loss after 30 steps: 0.3737725903910975
+Loss after 40 steps: 0.3383575056384249
+epoch done, avg_loss: 0.3291425638020357, nb_examples: 187
+Epoch: 1
+Loss after 50 steps: 0.2696079909801483
+Loss after 60 steps: 0.2313653283885547
+Loss after 70 steps: 0.2340251337736845
+Loss after 80 steps: 0.22358197192935383
+Loss after 90 steps: 0.22142154621807011
+epoch done, avg_loss: 0.22076990849831524, nb_examples: 187
+Epoch: 2
+Loss after 100 steps: 0.21268602779933385
+Loss after 110 steps: 0.2345377680133371
+Loss after 120 steps: 0.2224921297144007
+Loss after 130 steps: 0.21240824420709867
+Loss after 140 steps: 0.20733028682157956
+epoch done, avg_loss: 0.20733028682157956, nb_examples: 187
+Epoch: 3
+Loss after 150 steps: 0.1990893840789795
+Loss after 160 steps: 0.19567894004285336
+Loss after 170 steps: 0.19550980056325595
+Loss after 180 steps: 0.20187815818935634
+epoch done, avg_loss: 0.1999267602668089, nb_examples: 187
+Epoch: 4
+Loss after 190 steps: 0.20138723651568094
+Loss after 200 steps: 0.1967226266860962
+Loss after 210 steps: 0.19169110189313474
+Loss after 220 steps: 0.18714720665505438
+Loss after 230 steps: 0.18117758960917937
+epoch done, avg_loss: 0.18508141802593986, nb_examples: 187
+Epoch: 5
+Loss after 240 steps: 0.21225103984276453
+Loss after 250 steps: 0.21699301432818174
+Loss after 260 steps: 0.21386800419825774
+Loss after 270 steps: 0.21249871618217892
+Loss after 280 steps: 0.2250988904548728
+epoch done, avg_loss: 0.22468608840901583, nb_examples: 187
+Epoch: 6
+Loss after 290 steps: 0.22343991696834564
+Loss after 300 steps: 0.21576818902241557
+Loss after 310 steps: 0.22063131424887428
+Loss after 320 steps: 0.24691737844393805
+epoch done, avg_loss: 0.24002222007608667, nb_examples: 187
+Epoch: 7
+Loss after 330 steps: 0.18629631400108337
+Loss after 340 steps: 0.22138921916484833
+Loss after 350 steps: 0.23228507353500885
+Loss after 360 steps: 0.2558732838369906
+Loss after 370 steps: 0.24863615135351816
+epoch done, avg_loss: 0.23789486113716574, nb_examples: 187
+Epoch: 8
+Loss after 380 steps: 0.21429674625396727
+Loss after 390 steps: 0.22652620275815327
+Loss after 400 steps: 0.20918006151914598
+Loss after 410 steps: 0.2292630312698228
+Loss after 420 steps: 0.22966473052899042
+epoch done, avg_loss: 0.2287614321644931, nb_examples: 187
+Epoch: 9
+Loss after 430 steps: 0.3204505015164614
+Loss after 440 steps: 0.26146484663089115
+Loss after 450 steps: 0.24931569982852256
+Loss after 460 steps: 0.24467000404470846
+epoch done, avg_loss: 0.23517525514816856, nb_examples: 187
+RE Evaluation in *** BOUNDARIES *** mode
+processed 65 sentences with 1559 relations; found: 0 relations; correct: 0.
+	ALL	 TP: 0;	FP: 0;	FN: 1559
+		(m avg): precision: 0.00;	recall: 0.00;	f1: 0.00 (micro)
+		(M avg): precision: 0.00;	recall: 0.00;	f1: 0.00 (Macro)
+
+	1: 	TP: 0;	FP: 0;	FN: 1559;	precision: 0.00;	recall: 0.00;	f1: 0.00;	0
+{'eval_precision': 0, 'eval_recall': 0, 'eval_f1': 0, 'eval_loss': 0.1461804360151291}
+[]
+{'start': [14, 19, 26, 30, 33, 37, 40, 45, 53, 59, 62, 66, 72, 83, 87, 112, 141, 158, 160, 162, 166, 170, 210, 211, 225, 226, 245, 255, 256, 257, 263, 269, 270, 271, 278, 279, 285, 286, 287, 302, 303, 304, 305, 306, 322, 324, 327, 329, 332, 354, 355, 356, 364, 436, 439, 447, 450, 456, 457, 458], 'end': [19, 26, 30, 33, 37, 40, 45, 53, 56, 62, 66, 72, 83, 87, 112, 141, 158, 160, 162, 166, 170, 173, 211, 225, 226, 245, 255, 256, 257, 263, 269, 270, 271, 278, 279, 285, 286, 287, 302, 303, 304, 305, 306, 322, 324, 327, 329, 332, 354, 355, 356, 364, 372, 439, 447, 450, 456, 457, 458, 459], 'label': [0, 0, 2, 1, 1, 1, 1, 2, 1, 1, 2, 1, 2, 1, 2, 2, 2, 1, 2, 1, 2, 2, 2, 1, 2, 1, 1, 2, 2, 1, 1, 2, 2, 1, 2, 1, 2, 2, 1, 2, 2, 2, 2, 1, 2, 2, 2, 2, 1, 2, 2, 2, 2, 2, 2, 1, 2, 2, 2, 2]}
